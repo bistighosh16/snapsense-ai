@@ -76,20 +76,14 @@ Drop a **receipt**, **handwritten note**, **code screenshot**, **flowchart**, or
 git clone https://github.com/bistighosh16/snapsense-ai.git
 cd snapsense-ai
 
-text
-
 
 **Create virtual environment:**
 py -3.11 -m venv venv
 venv\Scripts\activate
 
-text
-
 
 **Install dependencies:**
 pip install -r requirements.txt
-
-text
 
 
 **Setup environment variables:**
@@ -97,13 +91,10 @@ text
 Create a `.env` file:
 GROQ_API_KEY=your_groq_api_key_here
 
-text
-
 
 **Run the app:**
 streamlit run app.py
 
-text
 
 
 Open [http://localhost:8501](http://localhost:8501) in your browser! 🚀
