@@ -50,15 +50,6 @@ Drop a **receipt**, **handwritten note**, **code screenshot**, **flowchart**, or
 
 ---
 
-## 📸 Screenshots
-
-### Hero Section
-*Add your screenshot here after deployment*
-
-### Analysis in Action
-*Add your screenshot here after deployment*
-
----
 
 ## 🛠️ Tech Stack
 
