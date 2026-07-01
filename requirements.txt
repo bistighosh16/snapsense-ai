@@ -1,0 +1,10 @@
+streamlit>=1.32.0
+groq>=0.9.0
+Pillow>=10.0.0
+PyMuPDF>=1.24.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+neonui>=0.1.0
+streamlit-paste-button>=0.1.0
+streamlit-lottie>=0.0.5
+requests>=2.31.0
