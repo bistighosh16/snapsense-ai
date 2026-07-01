@@ -9,7 +9,7 @@
 ![Groq](https://img.shields.io/badge/Groq-Llama_4_Scout-f0abfc?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-93c5fd?style=for-the-badge)
 
-**[🚀 Live Demo](https://snapsense-ai.streamlit.app/)** • **[📸 Screenshots](#-screenshots)** • **[✨ Features](#-features)**
+**[🚀 Live Demo](https://snapsense-ai.streamlit.app/)** • **[✨ Features](#-features)**
 
 </div>
 
