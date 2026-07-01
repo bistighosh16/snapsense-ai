@@ -87,10 +87,36 @@ def get_liquid_mercury_css():
     }}
 
     /* ============ HIDE STREAMLIT DEFAULTS ============ */
-    #MainMenu {{ visibility: hidden; }}
-    footer {{ visibility: hidden; }}
-    header {{ visibility: hidden; }}
-    .stDeployButton {{ display: none; }}
+#MainMenu {{ visibility: hidden; }}
+footer {{ visibility: hidden; }}
+.stDeployButton {{ display: none; }}
+
+/* Hide header background but keep toggle button visible */
+header[data-testid="stHeader"] {{
+    background: transparent !important;
+    height: 0 !important;
+}}
+
+/* Make sure sidebar toggle button stays visible and styled nicely */
+[data-testid="stSidebarCollapsedControl"] {{
+    background: linear-gradient(135deg, rgba(167, 139, 250, 0.3), rgba(240, 171, 252, 0.2)) !important;
+    border: 1px solid rgba(240, 171, 252, 0.5) !important;
+    border-radius: 12px !important;
+    padding: 0.5rem !important;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20px rgba(167, 139, 250, 0.4);
+    z-index: 999999 !important;
+}}
+
+[data-testid="stSidebarCollapsedControl"]:hover {{
+    background: linear-gradient(135deg, rgba(167, 139, 250, 0.5), rgba(240, 171, 252, 0.4)) !important;
+    box-shadow: 0 0 30px rgba(240, 171, 252, 0.6);
+}}
+
+[data-testid="stSidebarCollapsedControl"] button {{
+    color: white !important;
+}}
+    
 
     .main .block-container {{
         padding-top: 2rem;
